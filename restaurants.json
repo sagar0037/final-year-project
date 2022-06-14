@@ -1,0 +1,36 @@
+{
+  "restaurants": [
+    {
+      "tag": "greet",
+      "patterns": ["Hi", "Hello", "Hey", "Anyone there"],
+      "replys": ["Hey there", "How can I help", "What can I do for you?"]
+    },
+    {
+      "tag": "popular",
+      "patterns": ["What is restaurant popular for?", "Any meal to be popular?", "I want to have something popular"],
+      "replys": ["Chicken Biryani!!", "It is popular for Chicken Biryani"]
+    },
+    {
+      "tag": "often",
+      "patterns": ["Any of the often served", "What meal is oftenly served"],
+      "replys": ["Dishes often served are Thopaa, Momo and Chowmein",
+        "The restaurant often served dishes are Momo, Chowmein and Thopaa",
+        "Chomein, Momo, Thoppa"]
+    },
+    {
+      "tag": "cleanliness",
+      "patterns": ["Sanitation", "Cleanliness", "Maintenance", "How is it maintained"],
+      "replys": ["Consistence, more proactively", "Priorotize customer"]
+    },
+    {
+      "tag": "offer",
+      "patterns": ["What do you offer", "What is your offer"],
+      "replys": ["Cold drink", "Lassi"]
+    },
+    {
+      "tag": "drink",
+      "patterns": ["Any alcohol", "What can I have to drink?", "Drink?", "I want something to drink"],
+      "replys": ["You can have wine or beer", "We provide you wine and beer"]
+    }
+  ]
+}
